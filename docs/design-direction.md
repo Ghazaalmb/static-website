@@ -20,3 +20,11 @@ The composer now owns new and edited posts through a three-step dialog: channels
 Conversation context now includes tags, internal notes, ownership, handoff and linked orders. Prepared recommendations link a conversation or knowledge item to an editable draft; the assistant panel also offers a draft action. Onboarding, simulated channel errors/retries, local reports, role simulation and team history remain explicitly marked as prototype behavior. No real invitations, messages, social connections, scheduled publishing or AI calls occur.
 
 Additional isolated checks cover all 16 routes, review permissions, past/future scheduling, image requirements, disconnected accounts, caption variants, notes/tags, team members and audit persistence. Visual browser QA remains unavailable.
+
+## Ocean identity — October 2026
+
+Palette supplied by the owner: Deep Ocean `#0B2D5B`, Indigo Purple `#6A5ACD`, Teal `#14B8A6`, Coral `#FF8A5B`, Slate `#94A3B8`, Cloud `#F5F8FF`. Cloud and navy establish the surfaces, indigo identifies AI and primary actions, teal indicates activity, and coral highlights selected calls to action. Darker slate and teal companions are used for small text. Network identity colors remain recognizable.
+
+`dist/ocean.css` is the final identity layer, loaded after the four product stylesheets. `octopusIcon()` is the shared code-native vector used by AI controls, cards and the floating assistant; `assets/octopus.svg` provides the same mark for inline image use. The `spark` icon key intentionally resolves to this octopus for existing callers. Preserve this mapping when componentizing the prototype.
+
+Validation: JavaScript syntax and existing DOM-stub workflow checks passed across 16 routes. Browser visual QA remains outstanding.
