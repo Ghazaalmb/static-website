@@ -22,6 +22,9 @@ Open http://localhost:8080. The `dist` directory is the authored static applicat
 2. `upgrade.js`: social identities, assistant, calendar and channel UI.
 3. `workspace.js`: operational dashboard, inbox, knowledge, products and orders.
 4. `product.js`: composer, review workflow, customer context, onboarding, reports and team simulation.
+5. `visual.js`: page illustrations and sample report visualization.
+
+`ocean.css` and `visual.css` finish the shared palette and visual identity.
 
 Matching CSS files are loaded in the same order. The layers currently override functions and extend shared state. They must remain in this order until refactored; they are not independent modules.
 

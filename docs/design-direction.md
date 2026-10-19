@@ -28,3 +28,7 @@ Palette supplied by the owner: Deep Ocean `#0B2D5B`, Indigo Purple `#6A5ACD`, Te
 `dist/ocean.css` is the final identity layer, loaded after the four product stylesheets. `octopusIcon()` is the shared code-native vector used by AI controls, cards and the floating assistant; `assets/octopus.svg` provides the same mark for inline image use. The `spark` icon key intentionally resolves to this octopus for existing callers. Preserve this mapping when componentizing the prototype.
 
 Validation: JavaScript syntax and existing DOM-stub workflow checks passed across 16 routes. Browser visual QA remains outstanding.
+
+## Graphic expansion
+
+`visual.css` and `visual.js` add illustration-led page covers, a six-color ribbon asset, an iridescent octopus, network constellation, content card compositions, larger content previews, workflow icons and a report bar chart. The chart uses the same sample conversation counts and range toggle as the table. Decorative art is hidden from accessibility APIs; existing actions remain text-labeled and usable. All six supplied swatches appear in the visual signature and illustrations. These are SVG/CSS graphics with no image-generation or third-party asset dependency. Visual mobile layouts stack the covers below 700px. Existing DOM-stub workflows pass with the final visual layer loaded; full browser visual QA remains required.
