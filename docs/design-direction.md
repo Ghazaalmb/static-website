@@ -32,3 +32,7 @@ Validation: JavaScript syntax and existing DOM-stub workflow checks passed acros
 ## Graphic expansion
 
 `visual.css` and `visual.js` add illustration-led page covers, a six-color ribbon asset, an iridescent octopus, network constellation, content card compositions, larger content previews, workflow icons and a report bar chart. The chart uses the same sample conversation counts and range toggle as the table. Decorative art is hidden from accessibility APIs; existing actions remain text-labeled and usable. All six supplied swatches appear in the visual signature and illustrations. These are SVG/CSS graphics with no image-generation or third-party asset dependency. Visual mobile layouts stack the covers below 700px. Existing DOM-stub workflows pass with the final visual layer loaded; full browser visual QA remains required.
+
+## Feature-specific layouts
+
+The repeated page-cover system has been removed. `features.css` and `visual.js` now provide a distinct command dashboard, studio format desk, inbox state filters, knowledge-library composition and workflow canvas. Other feature surfaces retain their task-specific controls with scoped styling via `data-view`. The dashboard readiness ring is computed from approved/scheduled content; counts reflect browser-local state. Format shortcuts open the existing composer. Theme control now reflects the selected state, persists preference and labels its next action. DOM-stub checks pass for all 16 routes; browser visual QA remains outstanding.
